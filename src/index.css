@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-authentication{
+.bg-authentication {
     background-image: url('./assets/backgrounds/Background.png');
     background-size: cover;
     background-position: center;
@@ -10,12 +10,26 @@
     min-height: 93vh;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color: '#F8F8F8';
+#body{
+    min-height: 100vh;
+}
+
+.swiper-pagination-bullet {
+    background-color: white !important;
+    opacity: 0.2;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: white !important;
+    opacity: 1;
+}
+
+.text-control {
+    font-size: 14px;
 }

@@ -1,15 +1,15 @@
-import { PropertiesFilter } from "../../components/homepage_components/PropertiesFilter";
-import { HeaderHome } from "../../components/activity/HeaderHome.jsx";
-import { PropertyActionSelection } from "../../components/activity/PropertyActionSelection.jsx";
-import { AboutUs } from "../../components/activity/AboutUs.jsx";
+import { PropertiesFilter } from '../../components/activity/homepage_components/PropertiesFilter.jsx';
+import { HomeHero } from '../../components/activity/heroes/HomeHero.jsx';
+import { PropertyActionSelection } from '../../components/activity/homepage_components/PropertyActionSelection.jsx';
+import { AboutUs } from '../../components/activity/homepage_components/AboutUs.jsx';
 
 export function Homepage() {
     return (
         <div className="max-w-7xl m-auto p-4">
-            <HeaderHome />
+            <HomeHero />
             <PropertyActionSelection />
             <AboutUs />
-            <PropertiesFilter/>
+            <PropertiesFilter />
         </div>
     );
 }
